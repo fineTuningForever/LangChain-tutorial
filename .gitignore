@@ -1,0 +1,63 @@
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+.python-version
+
+# 虚拟环境（非常重要！）
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook 检查点（防止自动保存干扰）
+.ipynb_checkpoints/
+
+# IDE 配置（如 PyCharm、VS Code）
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# 环境变量和密钥（绝对不要上传！）
+.env
+.env.*
+*.key
+*.pem
+*.token
+secrets.yaml
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# 测试/静态检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# 数据集 / 模型 / 大文件（除非你明确要版本化）
+data/
+models/
+*.bin
+*.pth
+*.h5
+*.onnx
+*.parquet
+
+# Chroma 向量库持久化目录（示例运行后自动生成）
+chapter07-RAG/asset/chroma-*/
+
+# 构建产物
+dist/
+build/
+*.egg-info/
